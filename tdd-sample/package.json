@@ -1,0 +1,19 @@
+{
+  "name": "tdd-sample",
+  "version": "1.0.0",
+  "description": "simple tdd demostratio",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "tdd",
+    "javascriptes6\u001b[D\u001b[D\u001b[D\u001b[F\u001b[D\u001b[B\u001b[F\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001b[F\u001b[B\u001b[F\u001b[F\u001b[B\u001b[B\u001b[D\u001b[A\u001b[B"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
