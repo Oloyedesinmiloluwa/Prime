@@ -26,7 +26,18 @@ describe('handle the right input', function() {
     });
   });
 describe('handle the right input', function() {
-    it('should return plingplang for 2', function() {
+    it('should return plingplong for 21', function() {
+      assert.equal(myApp.primeRain(21),"PlingPlong");
+    });
+  });
+  
+  describe('handle the right input', function() {
+    it('should return plingplong for 35', function() {
+      assert.equal(myApp.primeRain(35),"PlangPlong");
+    });
+  });
+  describe('handle the right input', function() {
+    it('should return plangplang for 2', function() {
       assert.equal(myApp.primeRain(2),2);
     });
   });
