@@ -25,6 +25,11 @@ describe('handle the right input', function() {
       assert.equal(myApp.primeRain(1755),"PlingPlang");
     });
   });
+describe('handle the right input', function() {
+    it('should return plingplang for 2', function() {
+      assert.equal(myApp.primeRain(2),2);
+    });
+  });
 
 describe('handle invalid input', function() {
     it('should return "invalid format" for -7', function() {
@@ -43,5 +48,6 @@ describe('handle invalid input', function() {
       assert.equal(myApp.primeRain("stringvalue"),"Invalid format");
     });
   });
+
 
 });
